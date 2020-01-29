@@ -59,6 +59,7 @@ app.use('/', index);
 
 // include your new routes here:
 app.use('/api', require('./routes/thing-routes'));
+app.user('/api', require('./routes/file-upload-routes'));
 
 
 module.exports = app;
